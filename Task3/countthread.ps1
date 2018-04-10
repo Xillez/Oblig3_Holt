@@ -1,1 +1,1 @@
-﻿Get-Process -Name chrome | ForEach-Object { Write-Host "Chrome: $($_.Id)  $($_.Threads.Count)" }
+﻿Get-Process -Name chrome | ForEach-Object { Write-Output "Chrome: $($_.Id)  $($_.Threads.Count)" }

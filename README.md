@@ -1,8 +1,12 @@
 ## Invoke-ScriptAnalyzer ##
 
-Invoke-ScriptAnalyzer can be install by running "Install-Module -Name PSScriptAnalyzer" from a Admin Powershell terminal and answering "y" for any quaestions that comes up. 
+Invoke-ScriptAnalyzer can be install by running 
 
-It's a script analyzer from microsoft. It uses a db of all good/bad powershell coding practises and runs them agains the script given after "-Path".
+- Install-Module -Name PSScriptAnalyzer
+
+from a Admin Powershell terminal and answering "y" for any questions that comes up. 
+
+It's a script analyzer from microsoft. It uses a db of all good/bad powershell coding practises and runs them agains the given script.
 
 #### Commands I ran: ####
 
